@@ -1,0 +1,239 @@
+@import url('https://fonts.googleapis.com/css?family=Yanone+Kaffeesatz');
+
+* {
+	font-family: 'Yanone Kaffeesatz', sans-serif;
+	font-size: 1em;
+}
+
+body {
+	background: #eeeeee;
+	
+}
+
+.BrendimgPC {
+	position: absolute;
+	margin-top: 100%;
+}
+
+.abbonst {
+	color: gold;
+	padding-top: 35px;
+}
+
+.BrendText {
+	position: absolute;
+	left: 10%;
+	margin-top: 5%;
+	color: #ffffff;
+	font-size: 40px;
+	text-shadow: 1px 2px 2px black;
+	border-top: 3px solid gold;
+	border-bottom: 3px solid gold;
+}
+h2{
+	font-size: 40px;
+}
+h3{
+	text-align: center;
+}
+.BrendTextMobile {
+	color: #ffffff;
+	text-shadow: 1px 2px 2px black;
+	border-top: 3px solid gold;
+	border-bottom: 3px solid gold;
+}
+
+.BrendimgMobile {
+	position: absolute;
+}
+
+.BrendimgMobile,h1>h5 {
+	color: gold;
+}
+
+.underline {
+	border-bottom: 3px solid gold;
+}
+
+#body {
+	background: #333;
+}
+
+.social {
+	padding-right: 70px;
+}
+
+.social>a {
+	padding-right: 3px;
+	color: #ffffff;
+}
+
+.social>a:hover {
+	color: gold;
+}
+
+.centered {
+	text-align: center;
+}
+
+.block {
+	padding-top: 50px;
+}
+
+.sfreblock {
+	font-size: 20px;
+}
+
+.blogtitle {
+	color: #000000;
+	font-size: 25px;
+}
+
+#navbarSupportedContent {
+	font-size: 20px;
+}
+.knopka {
+	position: absolute;
+	left: 30%;
+	top: 100%;
+}
+.h1title_text,.h4title_text,.h3title_text {
+	color: #eee;
+	text-shadow: 3px 3px 5px black; 
+}
+.underlinew {
+	border-bottom: 2px solid white;
+	width: 30%;
+	position: absolute;
+	left: 35%;
+}
+
+.title_text {
+	 padding: 1% 0;
+ 	 padding-top: 0px;
+ 	 padding-right: 100px;
+
+}
+.upline {
+	border-top: 2px solid white;
+	width: 60%;
+	left: 20%;
+	position: absolute;
+}
+
+.bottomline {
+	border-bottom: 2px solid white;
+	width: 60%;
+	left: 20%;
+	position: absolute;
+}
+
+.banner {
+	background-image: url(../img/banner.jpg);
+	background-size: 100%;
+	background-repeat: no-repeat;
+	position: absolute;
+	height: 100%;
+	width: 100%;
+}
+
+.blackbg {
+	background-color: black;
+}
+
+#meblock {
+	width: 70%;
+	border: 1px solid black;
+	overflow:hidden;
+	position: absolute;
+	left: 15%;
+	background: rgba(255,238,240,0.4);
+}
+
+.myblockb {
+	position: absolute;
+	bottom: 0;
+	right:  0;
+}
+
+.infomeblock {
+	word-wrap:break-word;
+
+}
+
+.meblockot {
+	position: absolute;
+	bottom: 0;
+	left: 47%;
+}
+
+/* слой затемнения */
+.dm-overlay {
+    position: fixed;
+    top: 0;
+    left: 0;
+    background: rgba(0, 0, 0, 0.65);
+    display: none;
+    overflow: auto;
+    width: 100%;
+    height: 100%;
+    z-index: 1000;
+}
+/* активируем слой затемнения и модальное окно */
+.dm-overlay:target {
+    display: block;
+/* анимация и время задержки */
+    -webkit-animation: fade .6s;
+    -moz-animation: fade .6s;
+    animation: fade .6s;
+}
+/* блочная таблица */
+.dm-table {
+    display: table;
+    width: 100%;
+    height: 100%;
+}
+/* ячейка блочной таблицы */
+.dm-cell {
+    display: table-cell;
+    padding: 0 1em;
+    vertical-align: middle;
+    text-align: center;
+}
+/* модальный блок */
+.dm-modal {
+    display: inline-block;
+    padding: 20px;
+/* максимально возможная ширина */
+    max-width: 50em;
+    background: #607d8b;
+/* внешняя тень блока */
+    -webkit-box-shadow: 0px 15px 20px rgba(0, 0, 0, 0.22), 0px 19px 60px rgba(0, 0, 0, 0.3);
+    -moz-box-shadow: 0px 15px 20px rgba(0, 0, 0, 0.22), 0px 19px 60px rgba(0, 0, 0, 0.3);
+    box-shadow: 0px 15px 20px rgba(0, 0, 0, 0.22), 0px 19px 60px rgba(0, 0, 0, 0.3);
+    color: #cfd8dc;
+    text-align: left;
+/* анимация и время задержки */
+    -webkit-animation: fade .8s;
+    -moz-animation: fade .8s;
+    animation: fade .8s;
+}
+
+/* изображения в модальном окне */
+.dm-modal img {
+    width: 100%;
+    height: auto;
+}
+/* миниатюры изображений */
+.pl-left,.pl-right {
+    width: 25%;
+    height: auto;
+}
+.pl-right {
+    float: right;
+    margin: 5px 0 5px 15px;
+}
+.pl-left {
+    float: left;
+    margin: 5px 15px 5px 0;
+}
